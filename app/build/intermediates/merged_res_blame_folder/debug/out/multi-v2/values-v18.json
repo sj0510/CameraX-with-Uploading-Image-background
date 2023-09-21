@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.sj.saurabh.app-mergeDebugResources-52:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\saurabh jaiswal\\.gradle\\caches\\transforms-3\\9a9cfe55ae54123f48995cd4e596e141\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

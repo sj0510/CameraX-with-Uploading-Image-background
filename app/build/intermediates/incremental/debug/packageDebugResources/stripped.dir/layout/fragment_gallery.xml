@@ -1,0 +1,76 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:layoutDirection="ltr">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/photo_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cutout_safe_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageButton
+            android:id="@+id/homeImgBtn"
+            android:layout_width="@dimen/round_button_small"
+            android:layout_height="@dimen/round_button_small"
+            android:layout_marginStart="@dimen/margin_xsmall"
+            android:layout_marginTop="@dimen/margin_small"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/back_button_alt"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_home_24" />
+
+        <ImageButton
+            android:id="@+id/share_button"
+            android:layout_width="@dimen/round_button_small"
+            android:layout_height="@dimen/round_button_small"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/share_button_alt"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/delete_button"
+            app:layout_constraintEnd_toStartOf="@+id/delete_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/delete_button"
+            app:srcCompat="@drawable/ic_share" />
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="@dimen/round_button_small"
+            android:layout_height="@dimen/round_button_small"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/delete_button_alt"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:srcCompat="@drawable/ic_delete" />
+
+        <ImageButton
+            android:id="@+id/upload_button"
+            android:layout_width="@dimen/round_button_small"
+            android:layout_height="@dimen/round_button_small"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/delete_button_alt"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/delete_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/delete_button"
+            app:layout_constraintTop_toTopOf="@+id/delete_button"
+            app:srcCompat="@drawable/ic_upload_24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

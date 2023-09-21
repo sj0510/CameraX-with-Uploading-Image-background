@@ -1,0 +1,57 @@
+com.sj.saurabh.app-core-ktx-1.9.0-0 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\00079a1e746b4ec8ce713a27503dabcc\transformed\core-ktx-1.9.0\res
+com.sj.saurabh.app-savedstate-1.2.0-1 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\032e218021a76611c07f1e062a71f52c\transformed\savedstate-1.2.0\res
+com.sj.saurabh.app-slidingpanelayout-1.2.0-2 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\04d946bdc0f4ca3640d9cb4e5fb41153\transformed\slidingpanelayout-1.2.0\res
+com.sj.saurabh.app-core-1.9.0-3 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\165a2dbc8fff7ba6246aca34fc72ad9f\transformed\core-1.9.0\res
+com.sj.saurabh.app-recyclerview-1.1.0-4 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\1cc99421561146f1697755edd727430f\transformed\recyclerview-1.1.0\res
+com.sj.saurabh.app-activity-ktx-1.6.0-5 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\2c38c6fb57daef29ee77e60401feef55\transformed\activity-ktx-1.6.0\res
+com.sj.saurabh.app-window-1.0.0-6 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\31c432c738139ff5121415ff0a86fe07\transformed\window-1.0.0\res
+com.sj.saurabh.app-camera-lifecycle-1.1.0-beta01-7 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\33be4ba9f26778f97c31c0c4cc906896\transformed\camera-lifecycle-1.1.0-beta01\res
+com.sj.saurabh.app-material-1.8.0-8 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\38926b669cc0946c2f7671888131bedf\transformed\material-1.8.0\res
+com.sj.saurabh.app-camera-core-1.1.0-beta01-9 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\3ec56a9793cad5112c61eefd0b4f03e7\transformed\camera-core-1.1.0-beta01\res
+com.sj.saurabh.app-camera-view-1.1.0-beta01-10 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\41bec7383c441dc9ae8f134184e72ff2\transformed\camera-view-1.1.0-beta01\res
+com.sj.saurabh.app-lifecycle-viewmodel-savedstate-2.5.1-11 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\428408f309c44e81cae80ff8829be1d2\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.sj.saurabh.app-coordinatorlayout-1.1.0-12 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\444c0e933542d0b4ee4f93936d8d3d7c\transformed\coordinatorlayout-1.1.0\res
+com.sj.saurabh.app-glide-4.12.0-13 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\466b7393063879af4040d5e8c53f2603\transformed\glide-4.12.0\res
+com.sj.saurabh.app-navigation-runtime-ktx-2.5.3-14 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\4e7128b5100f11448c288a447765d19f\transformed\navigation-runtime-ktx-2.5.3\res
+com.sj.saurabh.app-emoji2-1.2.0-15 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\5b1d0507542e552c4cb8b9635bf3a642\transformed\emoji2-1.2.0\res
+com.sj.saurabh.app-emoji2-views-helper-1.2.0-16 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\5fbfc8562381750547013f5c53d7ddf7\transformed\emoji2-views-helper-1.2.0\res
+com.sj.saurabh.app-lifecycle-livedata-core-2.5.1-17 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\618cfbeb57f8702cf802df87978fe4dd\transformed\lifecycle-livedata-core-2.5.1\res
+com.sj.saurabh.app-navigation-fragment-2.5.3-18 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\6f34a21cccf929c74e74d1bfe9d53456\transformed\navigation-fragment-2.5.3\res
+com.sj.saurabh.app-navigation-ui-ktx-2.5.3-19 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\70868bd5d0bd58129ffeeddc0d15f530\transformed\navigation-ui-ktx-2.5.3\res
+com.sj.saurabh.app-play-services-basement-18.1.0-20 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\732a4c5d1c77297fe1e2e7f0ef0e4338\transformed\play-services-basement-18.1.0\res
+com.sj.saurabh.app-camera-camera2-1.1.0-beta01-21 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\73569d4a898a7207baa769f487516ad4\transformed\camera-camera2-1.1.0-beta01\res
+com.sj.saurabh.app-startup-runtime-1.1.1-22 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\750dd181ed9c2179a22b37940992e92a\transformed\startup-runtime-1.1.1\res
+com.sj.saurabh.app-play-services-base-18.0.1-23 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\75307554efd8bdcc3af2ccb3652d37f5\transformed\play-services-base-18.0.1\res
+com.sj.saurabh.app-fragment-1.5.4-24 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\75cb8f3b045d290a0a0eb3d69cb8a18f\transformed\fragment-1.5.4\res
+com.sj.saurabh.app-lifecycle-runtime-ktx-2.5.1-25 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\846fad068af6a32ac18fc8c647082f0f\transformed\lifecycle-runtime-ktx-2.5.1\res
+com.sj.saurabh.app-navigation-runtime-2.5.3-26 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\86276bbe14b81de1b169e3e0d160bd32\transformed\navigation-runtime-2.5.3\res
+com.sj.saurabh.app-fragment-ktx-1.5.4-27 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\87d7c27425a0c438ef78df9e277b500f\transformed\fragment-ktx-1.5.4\res
+com.sj.saurabh.app-cardview-1.0.0-28 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\90740d2762f416d4abe0de67169d675c\transformed\cardview-1.0.0\res
+com.sj.saurabh.app-navigation-common-2.5.3-29 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\910b49b48f7b15e76be68faf0b4a9794\transformed\navigation-common-2.5.3\res
+com.sj.saurabh.app-lifecycle-runtime-2.5.1-30 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\91d2ba9e0ba4f35afd7249ef52218666\transformed\lifecycle-runtime-2.5.1\res
+com.sj.saurabh.app-lifecycle-viewmodel-2.5.1-31 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\922b933b9343d3747350f8df6d17759f\transformed\lifecycle-viewmodel-2.5.1\res
+com.sj.saurabh.app-navigation-fragment-ktx-2.5.3-32 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\993182559c65e5bdbe860b11b49da802\transformed\navigation-fragment-ktx-2.5.3\res
+com.sj.saurabh.app-appcompat-1.6.1-33 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\9a9cfe55ae54123f48995cd4e596e141\transformed\appcompat-1.6.1\res
+com.sj.saurabh.app-appcompat-resources-1.6.1-34 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\a41978a8d13c3bbb7625c9c0439e5c0b\transformed\appcompat-resources-1.6.1\res
+com.sj.saurabh.app-transition-1.4.1-35 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\a511309a636b45bd418d3c4e92452f8d\transformed\transition-1.4.1\res
+com.sj.saurabh.app-lifecycle-viewmodel-ktx-2.5.1-36 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\a9192bf80b67fe269dce27134bbb6d4f\transformed\lifecycle-viewmodel-ktx-2.5.1\res
+com.sj.saurabh.app-savedstate-ktx-1.2.0-37 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\ab9a1bb7630709760d81e8b69d950fc8\transformed\savedstate-ktx-1.2.0\res
+com.sj.saurabh.app-drawerlayout-1.1.1-38 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\b0a972f09d3c41285239ccb19b4a8092\transformed\drawerlayout-1.1.1\res
+com.sj.saurabh.app-firebase-common-20.2.0-39 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\b88345158c5ca34c2c561b055a0c6973\transformed\firebase-common-20.2.0\res
+com.sj.saurabh.app-viewpager2-1.0.0-40 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\ba43233e20ff795ceacc48afdc56ca7c\transformed\viewpager2-1.0.0\res
+com.sj.saurabh.app-lifecycle-livedata-core-ktx-2.5.1-41 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\cd5f08ce6815072f27daaaaa78fe50f2\transformed\lifecycle-livedata-core-ktx-2.5.1\res
+com.sj.saurabh.app-activity-1.6.0-42 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\d48b9457d3e7bfeda4afa1826d4b5b18\transformed\activity-1.6.0\res
+com.sj.saurabh.app-lifecycle-process-2.4.1-43 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\d78636c642b974be68ba6909730cc531\transformed\lifecycle-process-2.4.1\res
+com.sj.saurabh.app-navigation-ui-2.5.3-44 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\ed87dc5c24bf76fcc6a1ca555cc798cc\transformed\navigation-ui-2.5.3\res
+com.sj.saurabh.app-constraintlayout-2.1.4-45 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\ef08783f1903956860ec5337c8a18921\transformed\constraintlayout-2.1.4\res
+com.sj.saurabh.app-navigation-common-ktx-2.5.3-46 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\f71d156ba286fa0b6d30261e6b6e8d99\transformed\navigation-common-ktx-2.5.3\res
+com.sj.saurabh.app-annotation-experimental-1.3.0-47 C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\f9d519d7c4076131b7f0eaea8b7d57c0\transformed\annotation-experimental-1.3.0\res
+com.sj.saurabh.app-google-services-48 S:\parallelDotsTask\Saurabh\app\build\generated\res\google-services\debug
+com.sj.saurabh.app-pngs-49 S:\parallelDotsTask\Saurabh\app\build\generated\res\pngs\debug
+com.sj.saurabh.app-resValues-50 S:\parallelDotsTask\Saurabh\app\build\generated\res\resValues\debug
+com.sj.saurabh.app-rs-51 S:\parallelDotsTask\Saurabh\app\build\generated\res\rs\debug
+com.sj.saurabh.app-packageDebugResources-52 S:\parallelDotsTask\Saurabh\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.sj.saurabh.app-packageDebugResources-53 S:\parallelDotsTask\Saurabh\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.sj.saurabh.app-merged_res-54 S:\parallelDotsTask\Saurabh\app\build\intermediates\merged_res\debug
+com.sj.saurabh.app-debug-55 S:\parallelDotsTask\Saurabh\app\src\debug\res
+com.sj.saurabh.app-main-56 S:\parallelDotsTask\Saurabh\app\src\main\res

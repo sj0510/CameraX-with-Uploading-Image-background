@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_HomeFragment">
+
+
+
+    <fragment
+        android:id="@+id/navigation_HomeFragment"
+        android:name="com.sj.saurabh.ui.fragments.HomeFragment"
+        android:label="PermissionsFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_Home_to_permission"
+            app:destination="@id/navigation_PermissionsFragment"
+            app:popUpTo="@id/navigation_HomeFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_PermissionsFragment"
+        android:name="com.sj.saurabh.ui.fragments.PermissionsFragment"
+        android:label="PermissionsFragment"
+        >
+
+        <action
+            android:id="@+id/action_permissions_to_camera"
+            app:destination="@id/navigation_CameraFragment"
+            app:popUpTo="@id/navigation_PermissionsFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_CameraFragment"
+        android:name="com.sj.saurabh.ui.fragments.CameraFragment"
+        android:label="CameraFragment"
+        tools:layout="@layout/fragment_camera">
+
+        <action
+            android:id="@+id/action_camera_to_gallery"
+            app:destination="@id/navigation_GalleryFragment" />
+
+        <action
+            android:id="@+id/action_camera_to_permissions"
+            app:destination="@id/navigation_PermissionsFragment"
+            app:popUpTo="@id/navigation_CameraFragment"
+            app:popUpToInclusive="true"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_GalleryFragment"
+        android:name="com.sj.saurabh.ui.fragments.GalleryFragment"
+        android:label="GalleryFragment"
+        tools:layout="@layout/fragment_gallery">
+        <argument
+            android:name="root_directory"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_GalleryFragment2"
+        android:name="com.sj.saurabh.ui.fragments.GalleryFragment2"
+        android:label="GalleryFragment"
+        tools:layout="@layout/fragment_gallery2">
+        <argument
+            android:name="root_directory"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

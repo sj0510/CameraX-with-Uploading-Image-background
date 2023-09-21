@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.sj.saurabh.app-mergeDebugResources-53:/layout/fragment_camera.xml",
+        "source": "com.sj.saurabh.app-main-56:/layout/fragment_camera.xml"
+    },
+    {
+        "merged": "com.sj.saurabh.app-mergeDebugResources-53:/layout/fragment_gallery2.xml",
+        "source": "com.sj.saurabh.app-main-56:/layout/fragment_gallery2.xml"
+    },
+    {
+        "merged": "com.sj.saurabh.app-mergeDebugResources-53:/layout/design_item_gallery.xml",
+        "source": "com.sj.saurabh.app-main-56:/layout/design_item_gallery.xml"
+    },
+    {
+        "merged": "com.sj.saurabh.app-mergeDebugResources-53:/layout/activity_main2.xml",
+        "source": "com.sj.saurabh.app-main-56:/layout/activity_main2.xml"
+    },
+    {
+        "merged": "com.sj.saurabh.app-mergeDebugResources-53:/layout/camera_ui_container.xml",
+        "source": "com.sj.saurabh.app-main-56:/layout/camera_ui_container.xml"
+    },
+    {
+        "merged": "com.sj.saurabh.app-mergeDebugResources-53:/layout/fragment_home.xml",
+        "source": "com.sj.saurabh.app-main-56:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.sj.saurabh.app-mergeDebugResources-53:/layout/fragment_gallery.xml",
+        "source": "com.sj.saurabh.app-main-56:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.sj.saurabh.app-mergeDebugResources-53:/layout/fragment_permissions.xml",
+        "source": "com.sj.saurabh.app-main-56:/layout/fragment_permissions.xml"
+    },
+    {
+        "merged": "com.sj.saurabh.app-mergeDebugResources-53:/layout/activity_splash.xml",
+        "source": "com.sj.saurabh.app-main-56:/layout/activity_splash.xml"
+    }
+]

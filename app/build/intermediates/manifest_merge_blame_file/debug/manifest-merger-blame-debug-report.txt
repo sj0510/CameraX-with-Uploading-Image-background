@@ -1,0 +1,280 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.sj.saurabh"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml
+11    <!-- Enable instant app support -->
+12    <dist:module dist:instant="true" />
+12-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:6:5-40
+12-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:6:18-37
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:8:5-60
+14-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:8:19-57
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:9:5-65
+16-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:9:22-62
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:10:5-67
+17-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:10:22-64
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:11:5-80
+18-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:11:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:12:5-81
+19-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:12:22-78
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:13:5-78
+20-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:13:22-76
+21
+22    <permission
+22-->[androidx.core:core:1.9.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\165a2dbc8fff7ba6246aca34fc72ad9f\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.sj.saurabh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.9.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\165a2dbc8fff7ba6246aca34fc72ad9f\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.9.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\165a2dbc8fff7ba6246aca34fc72ad9f\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.sj.saurabh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.9.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\165a2dbc8fff7ba6246aca34fc72ad9f\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.9.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\165a2dbc8fff7ba6246aca34fc72ad9f\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:15:5-75:19
+29        android:allowBackup="true"
+29-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:16:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.9.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\165a2dbc8fff7ba6246aca34fc72ad9f\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:17:9-65
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:fullBackupContent="@xml/backup_rules"
+34-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:18:9-54
+35        android:icon="@mipmap/ic_launcher"
+35-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:19:9-43
+36        android:label="@string/app_name"
+36-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:20:9-41
+37        android:supportsRtl="true"
+37-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:21:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.Saurabh" >
+39-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:22:9-45
+40        <activity
+40-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:24:9-60:20
+41            android:name="com.sj.saurabh.ui.activities.MainActivity2"
+41-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:25:13-56
+42            android:clearTaskOnLaunch="true"
+42-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:26:13-45
+43            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+43-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:32:13-91
+44            android:exported="true"
+44-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:34:13-36
+45            android:icon="@mipmap/ic_launcher"
+45-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:28:13-47
+46            android:resizeableActivity="true"
+46-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:31:13-46
+47            android:rotationAnimation="seamless"
+47-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:30:13-49
+48            android:screenOrientation="fullUser"
+48-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:29:13-49
+49            android:theme="@style/Theme.Saurabh" >
+49-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:27:13-49
+50
+51            <!-- Register as a system camera app -->
+52            <intent-filter>
+52-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:39:13-44:29
+53                <action android:name="android.media.action.IMAGE_CAPTURE" />
+53-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:40:17-77
+53-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:40:25-74
+54                <action android:name="android.media.action.STILL_IMAGE_CAMERA" />
+54-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:41:17-81
+54-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:41:25-79
+55                <action android:name="android.media.action.VIDEO_CAMERA" />
+55-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:42:17-76
+55-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:42:25-73
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:43:17-75
+57-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:43:27-73
+58            </intent-filter>
+59
+60            <!-- App links for http/s -->
+61            <intent-filter android:autoVerify="true" >
+61-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:47:13-55:29
+61-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:47:28-53
+62                <action android:name="android.intent.action.VIEW" />
+62-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:48:17-69
+62-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:48:25-66
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:43:17-75
+64-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:43:27-73
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:50:17-78
+65-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:50:27-75
+66
+67                <data android:scheme="http" />
+67-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:51:17-47
+67-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:51:23-44
+68                <data android:scheme="https" />
+68-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:51:17-47
+68-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:51:23-44
+69                <data android:host="example.android.com" />
+69-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:51:17-47
+69-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:53:23-57
+70                <data android:pathPattern="/camerax" />
+70-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:51:17-47
+70-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:54:23-53
+71            </intent-filter>
+72
+73            <!-- Declare notch support -->
+74            <meta-data
+74-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:58:13-83
+75                android:name="android.notch_support"
+75-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:58:24-60
+76                android:value="true" />
+76-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:58:61-81
+77        </activity>
+78        <activity
+78-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:62:9-72:20
+79            android:name="com.sj.saurabh.ui.activities.SplashActivity"
+79-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:63:13-57
+80            android:exported="true"
+80-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:64:13-36
+81            android:label="@string/app_name"
+81-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:65:13-45
+82            android:theme="@style/Theme.Saurabh.NoActionBar" >
+82-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:66:13-61
+83            <intent-filter>
+83-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:67:13-71:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:68:17-69
+84-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:68:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:70:17-77
+86-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:70:27-74
+87            </intent-filter>
+88        </activity>
+89
+90        <service android:name="com.sj.saurabh.services.MyServices" />
+90-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:74:9-55
+90-->S:\parallelDotsTask\Saurabh\app\src\main\AndroidManifest.xml:74:18-53
+91        <service
+91-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\68be1a0d39fe35de38e38f22a88f6c05\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:11:9-17:19
+92            android:name="com.google.firebase.components.ComponentDiscoveryService"
+92-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\68be1a0d39fe35de38e38f22a88f6c05\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:12:13-84
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:20.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\b88345158c5ca34c2c561b055a0c6973\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\68be1a0d39fe35de38e38f22a88f6c05\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:13:13-37
+95            <meta-data
+95-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\68be1a0d39fe35de38e38f22a88f6c05\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+96                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+96-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\68be1a0d39fe35de38e38f22a88f6c05\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:15:17-122
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\68be1a0d39fe35de38e38f22a88f6c05\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:16:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\7f599c0f06cd7bef526088a23e95b4ad\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+99                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+99-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\7f599c0f06cd7bef526088a23e95b4ad\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\7f599c0f06cd7bef526088a23e95b4ad\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\ec38a2d3805ddb44725405299c9db859\transformed\firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+102                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+102-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\ec38a2d3805ddb44725405299c9db859\transformed\firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\ec38a2d3805ddb44725405299c9db859\transformed\firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+104        </service>
+105
+106        <provider
+106-->[com.google.firebase:firebase-common:20.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\b88345158c5ca34c2c561b055a0c6973\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+107            android:name="com.google.firebase.provider.FirebaseInitProvider"
+107-->[com.google.firebase:firebase-common:20.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\b88345158c5ca34c2c561b055a0c6973\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+108            android:authorities="com.sj.saurabh.firebaseinitprovider"
+108-->[com.google.firebase:firebase-common:20.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\b88345158c5ca34c2c561b055a0c6973\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+109            android:directBootAware="true"
+109-->[com.google.firebase:firebase-common:20.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\b88345158c5ca34c2c561b055a0c6973\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+110            android:exported="false"
+110-->[com.google.firebase:firebase-common:20.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\b88345158c5ca34c2c561b055a0c6973\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+111            android:initOrder="100" />
+111-->[com.google.firebase:firebase-common:20.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\b88345158c5ca34c2c561b055a0c6973\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+112
+113        <activity
+113-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\75307554efd8bdcc3af2ccb3652d37f5\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+114-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\75307554efd8bdcc3af2ccb3652d37f5\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\75307554efd8bdcc3af2ccb3652d37f5\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\75307554efd8bdcc3af2ccb3652d37f5\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+117
+118        <meta-data
+118-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\732a4c5d1c77297fe1e2e7f0ef0e4338\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+119            android:name="com.google.android.gms.version"
+119-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\732a4c5d1c77297fe1e2e7f0ef0e4338\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+120            android:value="@integer/google_play_services_version" />
+120-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\732a4c5d1c77297fe1e2e7f0ef0e4338\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+121
+122        <uses-library
+122-->[androidx.window:window:1.0.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\31c432c738139ff5121415ff0a86fe07\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+123            android:name="androidx.window.extensions"
+123-->[androidx.window:window:1.0.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\31c432c738139ff5121415ff0a86fe07\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+124            android:required="false" />
+124-->[androidx.window:window:1.0.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\31c432c738139ff5121415ff0a86fe07\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+125        <uses-library
+125-->[androidx.window:window:1.0.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\31c432c738139ff5121415ff0a86fe07\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+126            android:name="androidx.window.sidecar"
+126-->[androidx.window:window:1.0.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\31c432c738139ff5121415ff0a86fe07\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+127            android:required="false" />
+127-->[androidx.window:window:1.0.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\31c432c738139ff5121415ff0a86fe07\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+128
+129        <service
+129-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\73569d4a898a7207baa769f487516ad4\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:26:9-35:19
+130            android:name="androidx.camera.core.impl.MetadataHolderService"
+130-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\73569d4a898a7207baa769f487516ad4\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:27:13-75
+131            android:enabled="false"
+131-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\73569d4a898a7207baa769f487516ad4\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:28:13-36
+132            android:exported="false" >
+132-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\73569d4a898a7207baa769f487516ad4\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:29:13-37
+133            <meta-data
+133-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\73569d4a898a7207baa769f487516ad4\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:32:13-34:89
+134                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+134-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\73569d4a898a7207baa769f487516ad4\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:33:17-103
+135                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+135-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\73569d4a898a7207baa769f487516ad4\transformed\camera-camera2-1.1.0-beta01\AndroidManifest.xml:34:17-86
+136        </service>
+137
+138        <provider
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\5b1d0507542e552c4cb8b9635bf3a642\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+139            android:name="androidx.startup.InitializationProvider"
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\5b1d0507542e552c4cb8b9635bf3a642\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+140            android:authorities="com.sj.saurabh.androidx-startup"
+140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\5b1d0507542e552c4cb8b9635bf3a642\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+141            android:exported="false" >
+141-->[androidx.emoji2:emoji2:1.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\5b1d0507542e552c4cb8b9635bf3a642\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+142            <meta-data
+142-->[androidx.emoji2:emoji2:1.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\5b1d0507542e552c4cb8b9635bf3a642\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+143                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+143-->[androidx.emoji2:emoji2:1.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\5b1d0507542e552c4cb8b9635bf3a642\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+144                android:value="androidx.startup" />
+144-->[androidx.emoji2:emoji2:1.2.0] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\5b1d0507542e552c4cb8b9635bf3a642\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+145            <meta-data
+145-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\d78636c642b974be68ba6909730cc531\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+146                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+146-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\d78636c642b974be68ba6909730cc531\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+147                android:value="androidx.startup" />
+147-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\saurabh jaiswal\.gradle\caches\transforms-3\d78636c642b974be68ba6909730cc531\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+148        </provider>
+149    </application>
+150
+151</manifest>
